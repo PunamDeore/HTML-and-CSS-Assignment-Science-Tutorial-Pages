@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+		width:100%;
+		height: 75px;
+		display: flex;
+		Line-height:75px;
+		padding: 0px,100px;
+		position: fixed;
+		background-color: #0f050554;
+	}
+.logo p{
+		font-style:Goudy Stout;
+		font-size: 25px;
+		font-weight: bold;
+		float: left;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		cursor: pointer;
+}
+nav ul{
+	float:right;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 0px 30px;
+	color: white;
+	text-decoration: none;
+	margin-top: 30px;
+}
+nav li a:hover{
+	border-radius: 2px;
+	background:black;
+}
+.content-items img{
+	width:100%;
+	height:0%;
+	background-size: auto;
+}
+h1{
+	width:100%;
+	height: 75px;
+	Line-height:75px;
+	color:white;
+	text-align:center;
+	text-shadow:5px 5px 5px orange;
+	background-color:#0d0c0c;
+}
+.Introduction {
+	width:80%;
+	background-color: #fff3e0;
+	text-indent:30px;
+	margin:15px 16px;
+	padding: 20px 10px 30px;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family: Verdana,sans-serif;
+}
+.Coal{
+	width:80%;
+	background-color: #fff3e0;
+	text-indent:30px;
+	margin:15px 16px;
+	padding: 20px 10px 30px;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family: Verdana,sans-serif;
+}
+.content{
+	width:100px;
+	display:block;
+	margin:16px 16px;
+	padding:15px 20px 30px;
+}
+h2{
+	margin-left:10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+th td
+{
+	border:1px solid #eeeeee;
+	padding: 8px;
+}
+table th{
+	margin:center;
+	text-align:center;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #bdecbd;
+    color: black;
+	border-collapse: collapse;
+}
+tbody{
+	    border-collapse: collapse;
+		margin-left:10px;
+}
